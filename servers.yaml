@@ -1,0 +1,20 @@
+---
+- name: dockdev1
+  box: ubuntu/trusty64
+  ram: 1024 
+  ip: 192.168.50.1
+  cpu: 1
+  prov: install_docker_exp.sh
+- name: dockdev2
+  box: ubuntu/trusty64
+  ram: 1024
+  ip: 192.168.50.2
+  cpu: 1
+  prov: install_docker_exp.sh 
+- name: dockdev3
+  box: ubuntu/trusty64
+  ram: 1024
+  ip: 192.168.50.3
+  cpu: 1
+  prov: install_docker_exp.sh
+
